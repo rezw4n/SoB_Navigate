@@ -6,7 +6,7 @@ navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
 });
 
 function successLocation(position) {
-  setupMap([position.coords.longitude, position.coords.latitude]);
+  setupMap([90.40487, 23.78679]);
 }
 
 function errorLocation() {
